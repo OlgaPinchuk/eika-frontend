@@ -1,0 +1,23 @@
+.initial-block {
+  margin: 0 auto;
+  width: 55vw;
+  max-width: 500px;
+  background: var(--color-beige);
+}
+
+.welcome-image {
+  margin: var(--space-medium) auto var(--space-big);
+  display: block;
+  width: 80%;
+  background-color: var(--color-white);
+}
+
+.welcome-message > * {
+  margin-bottom: var(--space-medium);
+}
+
+@media screen and (max-width: 600px) {
+  .initial-block {
+    width: 80vw;
+  }
+}

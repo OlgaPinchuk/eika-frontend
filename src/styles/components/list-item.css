@@ -1,0 +1,5 @@
+.list-item {
+  display: grid;
+  grid-template: 1fr/ 30px 1fr max-content;
+  gap: 15px;
+}

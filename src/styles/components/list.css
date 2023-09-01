@@ -1,0 +1,28 @@
+.shopping-list {
+  margin-top: 5vh;
+}
+
+.shopping-list h1 {
+  margin-bottom: var(---space-medium);
+  font-size: var(--font-size-big);
+}
+
+.sorting-buttons {
+  text-align: center;
+  font-size: var(--font-size-small);
+}
+
+.list-content {
+  width: 70%;
+  margin: var(--space-big) auto;
+  gap: 20px;
+}
+
+.message {
+  margin-top: var(--font-size-big);
+  font-size: var(--font-size-big);
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  color: var(--color-blue);
+}

@@ -1,0 +1,10 @@
+.main-header {
+  margin-bottom: var(--space-big);
+}
+
+.logo {
+  margin-top: var(--space-small);
+  margin-left: var(--space-small);
+  width: 150px;
+  height: auto;
+}

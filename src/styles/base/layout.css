@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size-medium);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+input {
+  margin: 5px 0;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+.App {
+  height: 100vh;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  margin: var(--space-medium) auto;
+  max-width: 80%;
+}
+
+.main-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 0.7rem 1.5rem;
+  text-align: center;
+  border-radius: 20px;
+  border: 0 transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+.button-primary:hover {
+  background-color: var(--color-dark-blue);
+}
+
+.button-primary:disabled {
+  background-color: rgba(var(--rgb-color-blue), var(--alpha));
+}
+
+.open-popup-button {
+  margin: 20px auto;
+  padding: 0.75rem 2rem;
+  width: 100%;
+  max-width: 170px;
+}
+
+.button-cancel {
+  background-color: var(--color-beige);
+  color: var(--color-dark);
+}
+
+.button-cancel:hover {
+  background-color: var(--color-gainsboro);
+}
+
+.text-button {
+  background: none;
+  color: var(--color-dark);
+  font-weight: bold;
+  font-size: inherit;
+  border: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.text-button:active {
+  border-color: currentColor;
+}
+
+.toggle-completed {
+  margin: 50px auto;
+  border-bottom-color: currentColor;
+  width: fit-content;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: var(--font-size-small);
+  }
+}
